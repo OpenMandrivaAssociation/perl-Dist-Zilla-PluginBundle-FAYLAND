@@ -1,9 +1,9 @@
 %define upstream_name    Dist-Zilla-PluginBundle-FAYLAND
-%define upstream_version 0.06
+%define upstream_version 0.12
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Dist::Zilla like FAYLAND when you build your dists
 License:	GPL+ or Artistic
@@ -40,4 +40,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 %doc Changes LICENSE README
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
+
 
